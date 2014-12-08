@@ -2,6 +2,9 @@
 @import "_reset";
 @import "_variables";
 
+* + * {
+  margin-top: 1em;
+}
 
 body {
   background: $white;
