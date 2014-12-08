@@ -1,3 +1,9 @@
 
 @import "_reset";
 @import "_variables";
+
+
+body {
+  background: $white;
+  font-family: $serif;
+}
