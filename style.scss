@@ -46,15 +46,15 @@ h2 {
 }
 
 
-p {
-}
+p {}
 
 a {
   text-decoration: none;
   color: $darkGray;
 }
+
 a:hover, a:active {
-  border-bottom: 1px solid $lightgray;
+  border-bottom: 1px solid $lightGray;
 }
 
 ul, ol {
@@ -175,8 +175,6 @@ nav {
   }
 }
 
-.wrapper-footer {
-}
 
 footer {
 }
