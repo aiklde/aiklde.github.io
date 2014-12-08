@@ -141,22 +141,11 @@ img {
 }
 
 nav {
-  
   @include mobile {
-    float: none;
-    display: block;
-    font-size: 16px;
   }
 
   a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-
     @include mobile {
-      color: $blue;
     }
   }
 }
@@ -166,11 +155,11 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-bottom: 2rem;
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
+  padding-bottom: 1rem;
   border-bottom: none;
 }
 
