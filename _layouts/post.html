@@ -13,11 +13,11 @@ layout: default
   {% assign y = page.date | date: "%y" %}
   {{ page.date | date: "%B" }} 
 {% case y %}
-  {% when '14' %}Two-thousand-fourteen
-  {% when '15' %}Two-thousand-fifteen
-  {% when '16' %}Two-thousand-sixteen
-  {% when '17' %}Two-thousand-seventeen
-  {% when '18' %}Two-thousand-eighteen
+  {% when '14' %}Two-Thousand-Fourteen
+  {% when '15' %}Two-Thousand-Fifteen
+  {% when '16' %}Two-Thousand-Sixteen
+  {% when '17' %}Two-Thousand-Seventeen
+  {% when '18' %}Two-Thousand-Eighteen
   {% else %}{{ page.date | date: "%Y" }}.
   {% endcase %}
   </div>
