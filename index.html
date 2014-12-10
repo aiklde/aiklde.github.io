@@ -7,7 +7,7 @@ layout: default
     <article class="post">    
       
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-        <div class="date">
+        <span id="date">
           {% assign y = post.date | date: "%y" %}
           {{ post.date | date: "%B" }} 
           {% case y %}
@@ -18,7 +18,7 @@ layout: default
             {% when '18' %}Two-Thousand-Eighteen
             {% else %}{{ post.date | date: "%Y" }}.
           {% endcase %}
-        </div>
+        </span>
 
       <!--<div class="entry">
         {{ post.content | truncatewords:40}}
