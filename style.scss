@@ -98,9 +98,10 @@ img {
   max-width: 100%;
 }
 
-#date {
+.date {
   font-family: $mono;
   font-size: .9rem;
+  padding-bottom: 40px;
 }
 
 // Specify the color of the selection
