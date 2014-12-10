@@ -10,7 +10,16 @@ layout: default
   </div>
 
   <div class="date">
-  {{ page.date | date: "%B %Y" }}
+  {% assign y = page.date | date: "%y" %}
+  {{ page.date | date: "%B" }} 
+{% case y %}
+  {% when '14' %}Two-thousand-fourteen
+  {% when '15' %}Two-thousand-fifteen
+  {% when '16' %}Two-thousand-sixteen
+  {% when '17' %}Two-thousand-seventeen
+  {% when '18' %}Two-thousand-eighteen
+  {% else %}{{ page.date | date: "%Y" }}.
+  {% endcase %}
   </div>
 
 </article>
