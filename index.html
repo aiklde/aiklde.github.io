@@ -7,16 +7,7 @@ layout: default
     <article class="post">    
       <index-title><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></index-title>
         <div class="date">
-          {% assign y = post.date | date: "%y" %}
-          {{ post.date | date: "%B" }} 
-          {% case y %}
-            {% when '14' %}Two-Thousand-Fourteen
-            {% when '15' %}Two-Thousand-Fifteen
-            {% when '16' %}Two-Thousand-Sixteen
-            {% when '17' %}Two-Thousand-Seventeen
-            {% when '18' %}Two-Thousand-Eighteen
-            {% else %}{{ post.date | date: "%Y" }}.
-          {% endcase %}
+          {{ post.date | date: "%B %Y" }}
         </div>
     </article>
   {% endfor %}
