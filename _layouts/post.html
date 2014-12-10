@@ -9,7 +9,7 @@ layout: default
     {{ content }}
   </div>
 
-  <div class="date">
+  <span id="date">
   {% assign y = page.date | date: "%y" %}
   {{ page.date | date: "%B" }} 
 {% case y %}
@@ -20,6 +20,7 @@ layout: default
   {% when '18' %}Two-Thousand-Eighteen
   {% else %}{{ page.date | date: "%Y" }}.
   {% endcase %}
-  </div>
+  </span>
 
 </article>
+<a href="/">See Everything</a>
