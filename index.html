@@ -5,8 +5,7 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">    
-      
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <index-title><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></index-title>
         <div class="date">
           {% assign y = post.date | date: "%y" %}
           {{ post.date | date: "%B" }} 
@@ -19,12 +18,6 @@ layout: default
             {% else %}{{ post.date | date: "%Y" }}.
           {% endcase %}
         </div>
-
-      <!--<div class="entry">
-        {{ post.content | truncatewords:40}}
-      </div>
-      
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
     </article>
   {% endfor %}
 </div>
