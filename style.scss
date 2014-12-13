@@ -31,18 +31,19 @@ body {
 }
 
 .container {
-  max-width: 570px;
+  max-width: 870px;
 }
 
 .entry {
   padding-bottom: 80px;
+max-width: 570px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
-  
-h1 {  
+
+h1 {
   font-size: 1em;
   padding-bottom: 40px;
 }
@@ -176,7 +177,7 @@ nav {
   border-bottom: none;
 }
 
-.post { 
+.post {
   blockquote {
   }
 
