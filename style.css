@@ -8,12 +8,12 @@
 }
 
 * + * {
-  margin-top: 2em;
+  margin-top: 5vw;
 }
 
 html {
      margin: 0;
-     font-size: 1.4vw;
+     font-size: 17px;
      -ms-text-size-adjust: 100%;
      -webkit-text-size-adjust: 100%;
 }
@@ -28,7 +28,6 @@ body {
 
 .container {
      max-width: 70vw;
-     padding-bottom: 32vw;
 }
 
 h1, h2, h3, h4 {
