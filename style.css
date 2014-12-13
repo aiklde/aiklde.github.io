@@ -23,10 +23,11 @@ body {
      font-family: 'Born', 'Times New Roman', serif;
      line-height: 1.55em;
      color: #404346;
+     overflow: auto;
 }
 
 .container {
-     max-width: 180vw;
+     max-width: 70vw;
      padding-bottom: 32vw;
 }
 
