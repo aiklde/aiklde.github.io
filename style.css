@@ -13,13 +13,13 @@
 
 html {
      margin: 0;
-     font-size: 1vw;
+     font-size: 2vw;
      -ms-text-size-adjust: 100%;
      -webkit-text-size-adjust: 100%;
 }
 
 body {
-     margin: 30vw;
+     margin: 10vw;
      font-family: 'Born', 'Times New Roman', serif;
      line-height: 1.55em;
      color: #404346;
