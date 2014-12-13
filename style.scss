@@ -13,6 +13,15 @@
 /* BASE RULES */
 /**************/
 
+@fontface {
+ font-family: 'Born';
+ src:
+     local('Born'),
+     local('Born'),
+     url('https://www.dropbox.com/s/edmri59ugxy9dyt/Born.otf?dl=0')
+     format('opentype');
+}
+
 * + * {
   margin-top: 2em;
 }
@@ -24,7 +33,7 @@ html {
 
 body {
   background: $white;
-  font-family: $serif;
+  font-family: 'Born', $serif;
   font-size: 1em;
   line-height: 1.45em;
   color: $darkGray;
