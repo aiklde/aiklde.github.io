@@ -8,7 +8,7 @@
 }
 
 * + * {
-  margin-top: 5vw;
+  margin-top: 4vw;
 }
 
 html {
@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-     max-width: 70vw;
+     max-width: 50vw;
 }
 
 .date {
