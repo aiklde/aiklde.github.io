@@ -27,7 +27,18 @@ body {
 }
 
 .container {
-     max-width: 50vw;
+     max-width: 90vw;
+}
+
+@media screen and (min-width: 32rem) and (max-width: 48rem) {
+  .container {
+    max-width: 70vw; }
+}
+
+
+@media screen and (min-width: 48rem) {
+  .container {
+    max-width: 50vw; }
 }
 
 .date {
