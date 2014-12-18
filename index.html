@@ -4,11 +4,11 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">    
-      <index-title><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></index-title>
-        <div class="date">
-          {{ post.date | date: "%B %Y" }}
-        </div>
-    </article>
+  <article class="post">
+<input type="checkbox" name="posts" id="{{ post.title }}"/>
+     <label for="{{ post.title }}"  class="title"><h1>{{ post.title }}</h1></label>
+     <div class="entry"> {{ post.content }}</div>
+     <label for="{{ post.title }}" class="collapse"></label>
+</article>
   {% endfor %}
 </div>
