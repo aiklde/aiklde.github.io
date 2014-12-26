@@ -2,11 +2,4 @@
 layout: default
 ---
 
-  {% for post in site.posts %}
-  <article>
-<input type="checkbox" name="posts" id="{{ post.title }}"/>
-     <label for="{{ post.title }}"  class="t"><h1>{{ post.title }}</h1></label>
-     <div class="e"> {{ post.content }}</div>
-     <label for="{{ post.title }}" class="l"></label>
-</article>
-  {% endfor %}
+{% for post in site.posts %}<input type="checkbox" name="posts" id="{{ post.title }}"/><label for="{{ post.title }}"  class="t"><h1>{{ post.title }}</h1></label><div class="e"> {{ post.content }}</div><label for="{{ post.title }}" class="l"></label>{% endfor %}
