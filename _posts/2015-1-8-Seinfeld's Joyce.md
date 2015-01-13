@@ -5,7 +5,7 @@ title: Seinfeld's Joyce
 
 
 
-At the time, the summer after my sophomore year, I was living in the dorms of Columbia University, which rents out rooms to students of any college who have come to New York City for internships or programs. I had never been to New York before. Although the fervor for internships in Nebraska was not nearly as extreme as in other parts of the country, especially for unpaid internships, one my professors had set everything up, and I couldn't refuse. 
+At the time, the summer after my sophomore year, I was living in the dorms of Columbia University, which rents out rooms to students of any college who have come to New York City for internships or programs. I had never been to New York before. Although the fervor for internships in Nebraska was not nearly as extreme as in other parts of the country, especially for unpaid internships, one of my professors had set everything up, and I couldn't refuse. 
 
 The job was to work as a researcher and assistant to one of his old friends, a writer, journalist, essayist-type who had been hired by some fashion companies to put together a book, or at least a very long article, on the history of American clothing. I have no opinion of what other people wear and can hardly dress myself, and Jim Miller was no different. Nebraska was at least ten years behind the East Coast in terms of fashion, like a time machine to the mid-1990s. Neither of us knew why our employers had ever thought he was the man for the job.
 
