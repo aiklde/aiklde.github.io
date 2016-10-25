@@ -5,6 +5,7 @@ overview: true
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <section class="intro">
   <div class="grid">
     <div class="unit whole center-on-mobiles">
@@ -96,3 +97,19 @@ Contact GitHub API Training Shop Blog About
 =======
 {% for post in site.posts %}<input type="checkbox" name="posts" id="{{ post.title }}"/><label for="{{ post.title }}"  class="t"><h1>{{ post.title }}</h1></label><div class="e"> {{ post.content }}</div><label for="{{ post.title }}" class="l"></label>{% endfor %}
 >>>>>>> parent of 0151bb6... e
+=======
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
+>>>>>>> barryclark/master
