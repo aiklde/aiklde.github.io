@@ -19,9 +19,9 @@ html {
 }
 body {
     margin:7vw;
-    background:#333;
+    background:#ddd;
     line-height:1.67em;
-    color:#ddd;
+    color:#333;
     overflow:auto;
 }
 .container {
