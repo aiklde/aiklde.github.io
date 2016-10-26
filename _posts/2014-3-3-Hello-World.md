@@ -1,10 +1,9 @@
 ---
 layout: post
-title: You're up and running!
+title: The Future is Dark
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+“The future is dark, which is the best thing the future can be, I think,” Virginia Woolf wrote in her journal on January 18, 1915, when she was almost thirty-three years old and the First World War was beginning to turn into catastrophic slaughter on an unprecedented scale that would continue for years. Belgium was occupied, the continent was at war, many of the European nations were also invading other places around the world, the Panama Canal had just opened, the U.S. economy was in terrible shape, twenty-nine thousand people had just died in an Italian earthquake, Zeppelins were about to attack Great Yarmouth, launching the age of aerial bombing against civilians, and the Germans were just weeks away from using poison gas for the first time on the Western Front. Woolf, however, might have been writing about her own future rather than the world’s.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+She was less than six months past a bout of madness or depression that had led to a suicide attempt, and was still being tended or guarded by nurses. Until then, in fact, her madness and the war had followed a similar calendar, but Woolf recovered and the war continued its downward plunge for nearly four more bloody years. The future is dark, which is the best thing the future can be, I think. It’s an extraordinary declaration, asserting that the unknown need not be turned into the known through false divination, or the projection of grim political or ideological narratives; it’s a celebration of darkness, willing—as that “I think” indicates—to be uncertain even about its own assertion.
