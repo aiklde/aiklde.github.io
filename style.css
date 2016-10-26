@@ -1,23 +1,27 @@
 * {
     margin:0;
-    padding:0
+    padding:0;
 }
 p {
-    margin-top:2em
+    margin-top:2em;
+        
+    #sitedescription {
+            font-style: italic;
+    }
 }
 html {
     margin:0;
     font-size: 22px;
     font-family: 'Crimson Text', serif;
     -ms-text-size-adjust:100%;
-    -webkit-text-size-adjust:100%
+    -webkit-text-size-adjust:100%;
 }
 body {
     margin:7vw;
     background:#f6f6f6;
     line-height:1.67em;
     color:#333;
-    overflow:auto
+    overflow:auto;
 }
 .container {
     max-width: 675px;
