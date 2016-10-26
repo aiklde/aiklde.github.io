@@ -1,4 +1,25 @@
-*{margin:0;padding:0}
-p{margin-top:2em}
-html{margin:0;font-size: 19px;font-family:Bembo;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
-body{margin:7vw;letter-spacing:-.01em;background:#fff;line-height:1.57em;color:#222;overflow:auto}
+* {
+    margin:0;
+    padding:0
+}
+p {
+    margin-top:2em
+}
+html {
+    margin:0;
+    font-size: 19px;
+    font-family:Bembo;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+}
+body {
+    margin:7vw;
+    letter-spacing:-.01em;
+    background:#fff;
+    line-height:1.57em;
+    color:#222;
+    overflow:auto
+}
+.container {
+    max-width: 675px;
+}
