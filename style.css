@@ -4,11 +4,12 @@
 }
 p {
     margin-top:2em;
-        
-    .site-description {
-            font-style: italic;
-    }
+     
 }
+
+p.site-description {
+    font-style: italic;
+    }
 html {
     margin:0;
     font-size: 22px;
