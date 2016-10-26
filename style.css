@@ -2,14 +2,7 @@
     margin:0;
     padding:0;
 }
-p {
-    margin-top:2em;
-     
-}
 
-p.site-description {
-    font-style: italic;
-    }
 html {
     margin:0;
     font-size: 22px;
@@ -26,4 +19,16 @@ body {
 }
 .container {
     max-width: 675px;
+}
+
+p {
+    margin-top:2em;
+}
+
+p.site-description {
+    font-style: italic;
+    }
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
 }
