@@ -23,6 +23,8 @@ body {
 }
 .container {
     max-width: 675px;
+    background: #fffcf7;
+    padding: 40px;
 }
 
 p {
