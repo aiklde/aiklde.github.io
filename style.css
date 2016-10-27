@@ -3,6 +3,10 @@
     padding:0;
 }
 
+* + * {
+    margin: 1em 0;
+}
+
 html {
     margin:0;
     font-size: 22px;
