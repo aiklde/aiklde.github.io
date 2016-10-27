@@ -52,3 +52,7 @@ a:hover {
     color: #fff;
     text-decoration: underline;
 }
+
+nav * + * {
+    margin-left: 1vw;
+}
