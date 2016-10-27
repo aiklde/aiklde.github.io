@@ -12,9 +12,9 @@ html {
 }
 body {
     margin:7vw;
-    background:#ddd;
+    background-color: rgb(221, 238, 255);
     line-height:1.67em;
-    color:#333;
+    color:#222;
     overflow:auto;
 }
 .container {
@@ -31,7 +31,7 @@ p.site-description {
 
 h1, h2, h3, h4, h5 {
     font-weight: normal;
-    font-family: Theinhardt;
+    font-family: Source Code Pro;
 }
 
 a, a:visited, a:active {
