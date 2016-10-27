@@ -30,7 +30,7 @@ p {
       font-family: 'Crimson Text', serif;
 }
 
-p.site-description {
+span.site-description {
     font-style: italic;
     }
 
