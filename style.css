@@ -18,12 +18,12 @@ body {
     margin:7vw;
     background: #B4DDF8;
     line-height:1.67em;
-    color:#222;
+    color:#ddd;
     overflow:auto;
 }
 .container {
     max-width: 675px;
-    background: #fff;
+    background: #024;
     padding: 65px;
 }
 
