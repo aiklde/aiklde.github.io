@@ -22,7 +22,7 @@ body {
     overflow:auto;
 }
 .container {
-    max-width: 675px;
+    max-width: 720px;
     background: #eee;
     padding: 65px;
 }
