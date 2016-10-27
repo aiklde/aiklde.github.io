@@ -44,8 +44,10 @@ title a {
 
 a, a:visited, a:active {
     color: #fffbf5;
+    text-decoration: none;
 }
 
 a:hover {
     color: #fff;
+    text-decoration: underline;
 }
