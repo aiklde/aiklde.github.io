@@ -16,23 +16,22 @@ html {
 }
 body {
     margin:7vw;
-    background: #B4DDF8;
     line-height:1.67em;
     color:#013;
     overflow:auto;
 }
-.container {
-    max-width: 720px;
+.wrapper-masthead {
+   background: #B4DDF8;
 }
 
 p {
     margin-top:2em;
+    max-width: 720px;
       font-family: 'Crimson Text', serif;
 }
 
 h1, h2, h3, h4, h5 {
     font-weight: normal;
-
 }
 
 h1.title a {
