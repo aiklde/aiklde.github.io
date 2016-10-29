@@ -22,10 +22,10 @@ body {
 }
 .wrapper-masthead {
     background: #B4DDF8;
-    padding: 7vw 7vw 0 7vw;
+    padding: 7vw;
 }
 
-.main {
+#main {
     padding: 0 7vw;
 }
 
