@@ -3,15 +3,30 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
+ <table>
+    <tr>
+        <td><a href="{{ site.baseurl }}{{ post.url }}">{{ page.title }}</a></td>
+    <td class="date">{{ page.date | date:"%e&emsp;%m&emsp;%y"}}</td>
+    </tr>
+</table>
 
   <div class="entry">
     {{ content }}
   </div>
 
-  <div class="date">
-    {{ page.date | date: "%e %B %Y" }}
-  </div>
+<table>
+    <tr>
+        <td> {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">previous</a>
+  {% endif %}</td>
+    <td class="date"> {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">next</a>
+  {% endif %}</td>
+    </tr>
+</table>
+ 
+ 
+</div>
 
   {% include disqus.html %}
 </article>
