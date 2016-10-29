@@ -15,13 +15,18 @@ html {
     -webkit-text-size-adjust:100%;
 }
 body {
-    margin:7vw;
+    margin: 0;
     line-height:1.67em;
     color:#124;
     overflow:auto;
 }
 .wrapper-masthead {
-   background: #B4DDF8;
+    background: #B4DDF8;
+    padding: 7vw 7vw 0 7vw;
+}
+
+.main {
+    padding: 0 7vw;
 }
 
 p {
