@@ -9,15 +9,15 @@
 
 html {
     margin:0;
-    font-size: 23px;
-      font-family: "Atlas Grotesk";
+    font-size: 19px;
+    font-family: "Atlas Grotesk", Arial;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
 }
 body {
     margin: 3em;
-    color:#555;
-    background: #ffeaea;
+    color: #f88;
+    background: #ffeaeb;
     overflow:auto;
 }
 
@@ -25,8 +25,9 @@ body {
         max-width: 720px;
 }
 p {
-      font-family: 'Crimson Text', serif;
-    line-height: 1.67em;
+    font-family: 'Bembo', serif;
+    line-height: 1.5em;
+    color:#444;
 }
 
 h1, h2, h3, h4, h5 {
@@ -39,12 +40,11 @@ table {
 
 td.date {
     text-align: right;
-    color: #f99;
 }
 
 a, a:visited, a:active {
     text-decoration: none;
-    color: #f99;
+    color: #f88;
 }
 
 a:hover {
