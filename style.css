@@ -47,7 +47,7 @@ p {
     font-family: 'TriniteNo1-RomanWide', serif;
     line-height: 1.5em;
     font-style: normal;
-    color:#500;
+    color:#523;
 }
 
 sup {
@@ -61,6 +61,14 @@ sup a:visited, sup a {
 em {
     font-family: 'TriniteNo1-Italic', serif;
     font-style: italic;
+}
+
+blockquote {
+    padding-left: 2em;
+}
+
+blockquote p {
+    line-height: 1.2em;
 }
 
 h1, h2, h3, h4, h5 {
