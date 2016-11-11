@@ -5,13 +5,16 @@
 
 @font-face {
     font-family: "TriniteNo1-RomanWide";
-    src: url(TriniteNo1-RomanWide.woff);
+    src: url(fonts/TriniteNo1-RomanWide.woff);
+    font-style: normal;
 }
+
 @font-face {
-    font-family: "TriniteNo1-RomanWide";
-    src: url(TriniteNo1-Italic.woff);
+    font-family: "TriniteNo1-Italic";
+    src: url(fonts/TriniteNo1-Italic.woff);
     font-style: italic, oblique;
 }
+
 
 
 * {
@@ -32,7 +35,7 @@ html {
 }
 body {
     margin: 3em;
-    color: #f88;
+    color: #f77;
     background: #fffafa;
     overflow:auto;
 }
@@ -43,7 +46,21 @@ body {
 p {
     font-family: 'TriniteNo1-RomanWide', serif;
     line-height: 1.5em;
+    font-style: normal;
     color:#500;
+}
+
+sup {
+    line-height: 1em;
+    font-size: .9em;
+}
+
+sup a:visited, sup a {
+}
+
+em {
+    font-family: 'TriniteNo1-Italic', serif;
+    font-style: italic;
 }
 
 h1, h2, h3, h4, h5 {
