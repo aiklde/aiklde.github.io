@@ -1,3 +1,19 @@
+@font-face {
+    font-family: Atlas Grotesk;
+    src: url(fonts/AtlasGrotesk-Regular.woff);
+}
+
+@font-face {
+    font-family: "TriniteNo1-RomanWide";
+    src: url(TriniteNo1-RomanWide.woff);
+}
+@font-face {
+    font-family: "TriniteNo1-RomanWide";
+    src: url(TriniteNo1-Italic.woff);
+    font-style: italic, oblique;
+}
+
+
 * {
     margin:0;
     padding:0;
@@ -9,7 +25,7 @@
 
 html {
     margin:0;
-    font-size: 19px;
+    font-size: 21px;
     font-family: "Atlas Grotesk", Arial;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
@@ -17,17 +33,17 @@ html {
 body {
     margin: 3em;
     color: #f88;
-    background: #ffeaeb;
+    background: #fffafa;
     overflow:auto;
 }
 
 .container {
-        max-width: 720px;
+        max-width: 730px;
 }
 p {
-    font-family: 'Bembo', serif;
+    font-family: 'TriniteNo1-RomanWide', serif;
     line-height: 1.5em;
-    color:#444;
+    color:#500;
 }
 
 h1, h2, h3, h4, h5 {
