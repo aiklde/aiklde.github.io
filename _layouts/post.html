@@ -4,8 +4,8 @@ layout: default
 
 <article class="post">
  <table>
-    <tr>
-         <td><h3>{{ page.title }}</h3></td>
+    <tr class="meta">
+         <td class="titlenonlink"><h3>{{ page.title }}</h3></td>
         <td class="date"><h3>{{ page.date | date:"%m&emsp;%e&emsp;%y"}}</h3></td>
     </tr>
 </table>
@@ -15,7 +15,7 @@ layout: default
   </div>
 
 <table>
-    <tr>
+    <tr class="meta">
         <td> {% if page.previous.url %}
     <a class="prev" href="{{page.previous.url}}">previous</a>
   {% endif %}</td>

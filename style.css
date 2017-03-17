@@ -1,18 +1,18 @@
 @font-face {
-    font-family: Atlas Grotesk;
-    src: url(fonts/AtlasGrotesk-Regular.woff);
+    font-family: "BauTF-Regular";
+    src: url(fonts/BauTF-Regular.woff);
 }
 
 @font-face {
-    font-family: "TriniteNo1-RomanWide";
-    src: url(fonts/TriniteNo1-RomanWide.woff);
+    font-family: "Sabon";
+    src: url(fonts/sabon-italic.woff);
     font-style: normal;
 }
 
 @font-face {
-    font-family: "TriniteNo1-Italic";
-    src: url(fonts/TriniteNo1-Italic.woff);
-    font-style: italic, oblique;
+    font-family: "Sabon";
+    src: url(fonts/sabon-roman.woff);
+    font-style: normal;
 }
 
 
@@ -28,47 +28,61 @@
 
 html {
     margin:0;
-    font-size: 21px;
-    font-family: "Atlas Grotesk", Arial;
+    font-size: 20px;
+    font-family: "BauTF-Regular", Arial;
+    font-weight: normal;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
+    
 }
 body {
-    margin: 3em;
-    color: #f77;
-    background: #fffafa;
+    margin: 4vw 7vw;
+    color: #333;
+    background: #f0fcfa;
     overflow:auto;
 }
 
 .container {
-        max-width: 730px;
+        max-width: 740px;
 }
-p {
-    font-family: 'TriniteNo1-RomanWide', serif;
-    line-height: 1.5em;
+.entry {
+    font-family: 'Sabon', serif;
+    letter-spacing: 0.01em;
+    line-height: 1.8em;
     font-style: normal;
-    color:#523;
+    position: relative;
+    margin-top: 2em;
+   
 }
 
 sup {
     line-height: 1em;
-    font-size: .9em;
+    font-size: .65em;
+    position: absolute;
+    right: -10px;
+    line-height: 1.2em;
+    font-family: BauTF-Regular;
 }
 
-sup a:visited, sup a {
+sup span.inline {
+    position: absolute;
+    top: 0px;
+    width: 300px;
 }
 
-em {
-    font-family: 'TriniteNo1-Italic', serif;
-    font-style: italic;
+sup a, sup a:visited, sup a:active  {
+     color: #333;
+    text-decoration: underline;
 }
+
 
 blockquote {
     padding-left: 2em;
+    font-size: .9em;
 }
 
 blockquote p {
-    line-height: 1.2em;
+    line-height: 1.4em;
 }
 
 h1, h2, h3, h4, h5 {
@@ -77,19 +91,60 @@ h1, h2, h3, h4, h5 {
 
 table {
     width: 100%;
+    border-collapse: collapse;
 }
 
 td.date {
     text-align: right;
 }
 
+td.title {
+    -webkit-font-smoothing: antialiased;
+    background: rgba(45,50,55,1);
+    color: #f6f7f7;
+}
+
+td { 
+    padding: .5em;
+}
+
+
+td.titlenonlink {
+-webkit-font-smoothing: antialiased;
+    background: rgba(45,50,55,1);
+    color: #f6f7f7;
+}
+
+td.title a {
+    color: #fff;
+}
+
+td.title a:hover {
+    color: #eee;
+}
+
+
+td {
+    padding: 0;
+}
+
+
+td h3{
+padding: .45em;
+}
+
+td.title div:hover{
+   background: rgba(255,255,255,.2);
+}
+
+
 a, a:visited, a:active {
     text-decoration: none;
-    color: #f88;
+  color: #f88;
 }
 
 a:hover {
-    text-decoration: underline;
+    
 }
 
 nav * + * {
