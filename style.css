@@ -17,8 +17,8 @@ html { font-family: 'Inter UI', sans-serif; }
 
 html {
     margin:0;
-    font-size: 14px;
-    font-family: 'Inter UI', Arial;
+    font-size: 24px;
+    font-family: adobe-garamond-pro, serif;
     font-weight: normal;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
@@ -32,11 +32,10 @@ body {
 }
 
 .container {
-        max-width: 500px;
+        max-width: 30em;
 }
 .entry {
-    font-family: 'Inter UI';
-    line-height: 1.5em;
+    line-height: 1.8em;
     font-style: normal;
     position: relative;
     margin-top: 2em;
@@ -49,7 +48,6 @@ sup {
     position: absolute;
     right: -10px;
     line-height: 1.2em;
-    font-family: BauTF-Regular;
 }
 
 sup span.inline {
@@ -83,7 +81,7 @@ table {
 }
 
 td.date {
-    font-size: .8em;
+    font-size: 1em;
     font-weight: 300;
 }
 
@@ -117,15 +115,15 @@ td {
 
 
 h3{
-padding: 0em;
-      font-size: 4em;
+    padding: 0em;
+    font-size: 1.5em;
     font-weight: 700;
 }
 
 
 a, a:visited, a:active {
     text-decoration: none;
-  color: #f88;
+    color: #f55;
 }
 
 a:hover {

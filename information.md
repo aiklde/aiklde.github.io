@@ -4,4 +4,4 @@ title: Information
 permalink: /Information/
 ---
 
-Daniel Kliger is a public school teacher in Kansas.
+Daniel Kliger is a special education elementary school teacher in Southwestern Kansas. He grew up in Massachusetts.
