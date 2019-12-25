@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Information
-permalink: /Information/
+title: About
+permalink: /About/
 ---
 
 Daniel Kliger is a special education elementary school teacher in Southwestern Kansas. He grew up in Massachusetts.
