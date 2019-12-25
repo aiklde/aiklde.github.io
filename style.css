@@ -26,7 +26,7 @@ html {
 }
 body {
     margin: 4vw 7vw;
-    color: #333;
+    color: #444;
     background: #fff;
     overflow:auto;
 }
@@ -118,12 +118,13 @@ h3{
     padding: 0em;
     font-size: 1.5em;
     font-weight: 700;
+    color: #333;
 }
 
 
 a, a:visited, a:active {
     text-decoration: none;
-    color: #f55;
+    color: #33aa76;
 }
 
 a:hover {
